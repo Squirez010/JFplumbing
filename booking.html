@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book oil boiler installation, repair or bathroom fitting in Chard, Ilminster, Axminster, Honiton & South Somerset. Free quotes, same-day service available. Serving TA20, TA19, EX13, EX14 postcodes.">
+    <meta name="keywords" content="book plumber Chard, book heating engineer Ilminster, plumbing appointment Axminster, heating service booking Honiton, oil boiler installation Chard, bathroom fitting Ilminster">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.finnplumbingheating.co.uk/booking.html">
+    <meta property="og:title" content="Book a Service - JF Plumbing & Heating">
+    <meta property="og:description" content="Schedule your plumbing or heating service appointment. Book online today.">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://www.finnplumbingheating.co.uk/booking.html">
+    <meta name="twitter:title" content="Book a Service - JF Plumbing & Heating">
+    <meta name="twitter:description" content="Schedule your plumbing or heating service appointment. Book online today.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.finnplumbingheating.co.uk/booking.html">
+    
+    <title>Book Oil Boiler & Bathroom Services in Chard, Ilminster & South Somerset</title>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="/" class="logo">
+                    <img src="assets/logo.jpg" alt="JF Plumbing & Heating" class="logo-img">
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#gallery">Gallery</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#service-areas">Areas</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="booking.html" class="btn-primary">Book Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-header">
+                    <h1>Book a Service</h1>
+                    <p>Fill out the form below to request a quote or schedule an appointment for oil boiler installation, repair or bathroom fitting in Chard, Ilminster, Axminster, Honiton, Crewkerne and surrounding areas. We'll get back to you as soon as possible.</p>
+                </div>
+                
+                <form id="bookingForm" class="booking-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" placeholder="Your full address & postcode">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Service Required *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service...</option>
+                            <option value="oil-boiler-installation">Oil Boiler Installation</option>
+                            <option value="oil-boiler-repair">Oil Boiler Repair</option>
+                            <option value="bathroom-installation">Bathroom Installation</option>
+                            <option value="general-plumbing">General Plumbing</option>
+                            <option value="other">Other Plumbing/Heating Service</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="date">Preferred Date *</label>
+                        <input type="date" id="date" name="date" required min="">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="time">Preferred Time *</label>
+                        <select id="time" name="time" required>
+                            <option value="">Select a time...</option>
+                            <option value="08:00">08:00</option>
+                            <option value="09:00">09:00</option>
+                            <option value="10:00">10:00</option>
+                            <option value="11:00">11:00</option>
+                            <option value="12:00">12:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="14:00">14:00</option>
+                            <option value="15:00">15:00</option>
+                            <option value="16:00">16:00</option>
+                            <option value="17:00">17:00</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Additional Details</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Please provide any additional information about your requirements..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-large" onclick="gtag('event', 'submit', {'event_category': 'Form', 'event_label': 'Booking Form Submit'});">
+                        Submit Booking Request
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>JF Plumbing & Heating</h3>
+                    <p>Professional plumbing and heating services across South Somerset</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Oil Boiler Installation</a></li>
+                        <li><a href="index.html#services">Oil Boiler Repair</a></li>
+                        <li><a href="index.html#services">Bathroom Installation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Phone: <a href="tel:+447412531508">07412 531508</a></li>
+                        <li>Email: <a href="mailto:jf.plumbing@outlook.com">jf.plumbing@outlook.com</a></li>
+                        <li>Instagram: <a href="http://instagram.com/jfplumbandheat" target="_blank" rel="noopener noreferrer">@jfplumbandheat</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Service Areas</h4>
+                    <p><strong>Main Areas:</strong> Chard, Ilminster, Axminster, Honiton, Crewkerne, South Petherton, Bridport</p>
+                    <p><strong>Postcodes:</strong> TA20, TA19, EX13, EX14, TA17, TA18, TA3, DT8, DT6 and surrounding villages</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 JF Plumbing & Heating. All rights reserved. | Designed by Squires</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
